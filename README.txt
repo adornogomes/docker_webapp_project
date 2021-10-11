@@ -2,7 +2,7 @@
 
 This project consists in an Ansible Playbook that first builds a Docker image containing an Apache Tomcat 9.0 server, and a web application called "sample" deployed on it.
 After to build the Docker image, the Ansible Playbook creates a Docker container based on this image. The Apache Tomcat uses the port 8080 to serve the web application.
-The Ansible Playbook uses a Pytest script to check if the container already exists. If the container doesn't exist, the Ansible Playbook builds the image and instantiate a container fom it.
+The Ansible Playbook uses a Pytest script to check if the container already exists. If the container doesn't exist, the Ansible Playbook builds the image and instantiate a container from it.
 Otherwise, nothing happens.
 All the Python dependency (Pip, Pytest, Pytest-base-url, and Docker-py) needed to run the project is installed by the Ansible Playbook.
 
