@@ -1,2 +1,0 @@
-# docker_webapp_project
-Docker_WebApp_Project
